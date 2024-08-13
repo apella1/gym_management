@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: gym_management
+  datasource:
+    url: jdbc:postgresql://localhost/gym_management
+    username: projects
+    password: shotmechanics
+  jpa:
+    generate-ddl: true
+
+
+server:
+  servlet:
+    context-path: /api/v1
